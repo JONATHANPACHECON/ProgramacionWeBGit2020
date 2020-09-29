@@ -1,0 +1,94 @@
+/*Regla*/
+selector {
+    propiedad: valor;
+}
+
+/*Selectores basicos*/
+
+/*Selector de etiquetas, aplicar para todas las etiquetas*/
+/*
+a{
+    color: red;
+}
+*/
+/*
+.parrafo{
+    color: blue;
+
+}
+*/
+/*
+#parrafo{
+    color: green;
+}
+
+*/
+
+/*Selector universal, se hace referencia con un *, se recomienda
+solo para resetear el navegador*/
+
+/*
+*{
+    background: red;
+}
+*/
+
+/*Selector de atributos: Se hace referencia con [], se seleccionan los elementos que tengan ese atributo*/
+
+
+/*Seleccionar los elementos que tengan ese atributo y ese calor*/
+[href="#"]{
+    color: green;
+}
+
+/*Seleccionar los elementos que tienen ese atributo y ese valor al menos una vez*/
+[class~="verde"]{
+    color: green;
+}
+
+/*Seleccionar los elementos que tienen ese atributo y exactamente ese valor o empiece por el vlaor seguido de un guion*/
+[class|="rojo"]{
+    color: rojo;
+}
+
+/*Seleccionar los elementos que tienen ese atributo y empiecen por ese valor*/
+
+[class$="verde"]{
+    color: orange;
+}
+
+/*Seleccionar los elementos que tienen ese atributo y empiecen por ese valor*/
+[class^="rojo"]{
+    color: purple;
+}
+
+/*Selectores combinadores*/
+
+/*Selector de hermano adyacente,
+selecciona un herano que este justo debajo, hermano inferior*/
+
+h1+h2{
+    color: red;
+}
+
+/*Selectores de hermano general, aplica los estilos a todos los hermanos
+que eten debajo de el que comparte el mismo padre*/
+
+h1~h3{
+    color: blue;
+}
+
+/*Selectores descendentes*/
+/*Aplica el estilo a todos los elementos dentro de este, se aplica  a todos los hijos*/
+
+div span{
+    color: yellowgreen;
+}
+
+
+/*Selector de hijo directo, busca relacion directa*/
+p >span {
+    color: blue;
+}
+
+/*Especifividad y herencias...*/
