@@ -66,15 +66,20 @@ span{
 .caja1{
     background: lightgreen;
     border: 3px solid black;
-    padding: 10px;
-    margin: 20px;
+    padding: 10px 20px;
+    margin: 10px 0 20px 0;
     box-sizing: border-box;
+    border-width: 20px 10px;
+    border-color: black;
+    border-style: solid;
 }
 
+/*
 .caja2{
     background: lightgreen;
     border: 3px solid black;
     padding: 10px;
-    margin: 20px;
+    margin: 20px 10px 5px 9px;
     box-sizing: border-box;
 }
+*/
