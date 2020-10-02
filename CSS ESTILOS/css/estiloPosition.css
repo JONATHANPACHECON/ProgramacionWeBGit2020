@@ -77,13 +77,65 @@ Espacio: Es el espacio que ocupa el elemento en el documento, lo reserva el nave
     border: 3px solid green;
     position: absolute;
     top: 0;
-    bottom: ;
+    bottom: 0;
     left: 0;
     right: 0;
     z-index: 0;
+    margin: auto;
+
+}
+
+/*FIXED*/
+body{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+
+.menu{
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    /*position fixed
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    */
+    position: sticky;
+    top: 0px;
+}
+
+.titulo{
     margin: 0;
 }
-.caja6{
-    border: 3px solid yellow;
-    position: absolute;
+/*STICKY*/
+
+.banner{
+    height: 100px;
+    background: darkgray;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/*Display
+
+inline
+block
+inline-block
+none
+
+*/
+
+.linea{
+    background:  lightcoral;
+    display: inline-block;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.bloque{
+    display: inline;
+    background: yellow;
 }
