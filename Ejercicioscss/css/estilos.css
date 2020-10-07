@@ -14,6 +14,7 @@ header nav{
     background: azure;
     width: 99%;
     border-radius: 5px;
+    margin: 0px;
 }
 /*lista desordenada*/
 header nav ul{
@@ -47,11 +48,83 @@ header nav form{
 
 .buscador{
     border-radius: 5px;
+    height: 20px;
 }
 
 .boton-buscar{
     background: green;
     color: white;
-    border: 1px solid green;
+    border: 5px solid green;
     border-bottom: 8px;
+    height: 30px;
+}
+
+.seccion1{
+    margin-top: 20px;
+}
+
+.seccion1{
+    text-align: center;
+}
+
+.seccion1 article img{
+    border:5px solid rgb(194, 193, 193);
+    width: 98%;
+}
+
+.seccion2{
+    margin-top: 10px;
+}
+
+.seccion2 article{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+
+}
+
+.seccion2 h1{
+    font-size: 60px;
+    margin: 10px 0 0;
+}
+
+.seccion2 h2{
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.ver-mas{
+    color: blue;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    margin-left: 30%;
+}
+
+.seccion2 video{
+    height: 200px;
+    width: 98%;
+    padding: 0 auto;
+}
+
+footer{
+    background: #152735;
+    height: 100px;
+    color: white;
+    padding: 10px;
+    
+
+}
+
+footer section{
+    display: inline-block;
+    background: #2a3c48;
+    height: 90%;
+    vertical-align: middle;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px 0 0 10px;
+    border-radius: 5px;
 }
