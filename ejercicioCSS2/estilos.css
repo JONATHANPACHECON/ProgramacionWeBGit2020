@@ -1,0 +1,71 @@
+/*Degradado
+
+Es la transicion entre un color y otro.
+
+Tipos lineales
+Tipos radiales: circulo o elipse
+
+2 colores: 0% 100%
+3 colores: 0% 50% 100%
+
+background-image: lineal o radian.
+
+Valores:
+linear-gradient([direccion],color1,color2)
+
+direcciones: to top, right, left, bottom, top right, top left, bottom right, bottom left.
+
+Inicios de color: medir en px, en, %.
+
+
+Valores para radial
+radial-gradiente([shape],color1, color2)
+
+origenes: at top, bottom, left, right, center.
+
+*/
+
+.caja{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+   /* background-image: linear-gradient(red 0%,blue 50%);
+    background-image: linear-gradient(to bottom right,black,red,blue 50% ,green,yellow,orange,brown,white);
+    background-image: linear-gradient(to bottom right,black,red,blue 50% ,green,yellow,orange,brown,white);*/
+    background-image: radial-gradient(ellipse 200px 800px at bottom, transparent 10%, yellow 50%);
+    /*linea solida 50% 70%*/
+}
+/*
+
+Box shadow
+            Desplasamiento horizontal      Desplazamiento vertical      Desenfoque de la sombra         Extension de la sombra         Por defecto agarra el color del texto
+box-shadow:          h-offset                     v-offset                  blut                                spread                              color
+
+inset y outset: por defecto es outset
+
+Sombras multiples
+
+*/
+
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 50px;
+    box-shadow: -10px -10px 50px 10px red,-10px,-10px 50px 0 blue inset;
+}
+
+/*Text shadow
+
+text-shadow: h-offset v-offset blur color
+Sombras multiples
+*/
+.titulo{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 3px 3px black, 3px 3px 10px green;
+    
+}
+    
+
