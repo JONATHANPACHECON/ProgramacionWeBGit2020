@@ -1,0 +1,117 @@
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    margin: 15px 20px;
+    border: 2px;
+    text-align: right;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 80px 0px 0px;
+    
+}
+header nav{
+    background: white;
+    width: 99%;
+    border: 2px;
+    margin: 0px;
+    text-align: right;
+    
+}
+
+.seccion1{
+    position: relative;
+    font-size: 80px;
+    left: 60px;
+}
+
+.texto2{
+    position: relative;
+    font-size: 60px;
+    text-align: left;
+    bottom: 120px;
+
+}
+
+.palabra{
+    position: relative;
+    bottom: 120px;
+}
+.palabra2{
+    font-size: 62px;
+    position: relative;
+    bottom: 235px;
+    right: 3px;
+}
+.palabra3{
+    font-size: 54px;
+    position: relative;
+    bottom: 300px;
+    right: 3px;
+}
+
+.p1{
+    position: relative;
+    bottom: 330px;
+    right: 3px;
+    font-size: 16px;
+}
+.p2{
+    position: relative;
+    bottom: 330px;
+    right: 3px;
+    font-size: 16px;
+}
+.p3{
+    position: relative;
+    bottom: 330px;
+    right: 3px;
+    font-size: 16px;
+}
+.nube{
+    float: right;
+    left: 60px;
+    position: relative;
+}
+
+.menu{
+    position: relative;
+    color: black;
+    background: white;
+    font-weight: 600;
+    border:2px solid black;
+    border-top: white;
+    border-left: white;
+    border-right: black;
+    left: 150px;
+    bottom: 95px;
+}
+
+.logo{
+    position: relative;
+    right: 160px;
+    bottom: 0px;
+}
+
+.abajo{
+    position:relative;
+    background-color: black;
+    color: white
+    
+}
+.b1{
+    position: relative;
+    left: 650px;
+    bottom: 60px;
+}
+.f3{
+    color: gray;
+    
+}
