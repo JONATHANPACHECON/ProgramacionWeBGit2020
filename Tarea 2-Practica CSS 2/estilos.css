@@ -1,0 +1,91 @@
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    margin: 15px 20px;
+    background: rgb(231, 230, 230);
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 15px 10px 15px 10px;
+    
+}
+
+.principal{
+    text-align: center;
+    background: blue;
+    padding: 10px 0 0 10px;
+}
+.logo{
+    /*reducir el tamaño*/
+}
+
+.menu{
+    text-align: right;
+    margin: 10;
+    font-size: 14px;
+    /*falta subrayar el texto*/
+}
+
+.seccion1{
+    background: white;
+    border-radius: 12px;
+    position: relative;
+    text-align: right;
+
+}
+.seccion1 img{
+    width: 50px;
+    height: 50px;
+}
+.caja1,.caja2,.caja3,.caja4{
+    
+    display: inline-block;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+
+
+.caja1{
+    background: rgb(51, 199, 51);
+    width: 180px;
+    height: 160px;
+    color: white;
+    font-weight: 550;
+}
+.caja2{
+    background: orange;
+    width: 180px;
+    height: 160px;
+    color: white;
+    font-weight: 550;
+}
+.caja3{
+    background: purple;
+    width: 180px;
+    height: 160px;
+    color: white;
+    font-weight: 550;
+}
+.caja4{
+    background: rgb(138, 29, 29);
+    width: 180px;
+    height: 160px;
+    color: white;
+    font-weight: 550;
+}
+
+.panel{
+    display: inline-block;
+
+    background: rgb(58, 58, 228);
+}
