@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    max-width: 1024;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#banner{
+    width:100%;
+}
+#logo{
+    margin:20px 0 0 20px;
+}
+#buscador{
+    float: right;
+    margin: 20px 20px 0 0;
+    width: 200px;
+
+}
+#paint{
+    position: absolute;
+    right:0;
+    top:21px;
+    z-index: -1; /*al poner este z-index el elemento se pone debajo de...*/
+}
+
